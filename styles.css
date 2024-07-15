@@ -40,17 +40,20 @@ nav {
   border: none;
   padding: 0;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .search-button img {
   width: 24px;
   height: 24px;
   transition: background-color 0.3s ease;
+  border-radius: 50%;
 }
 
 .search-button:hover img {
   background-color: rgba(0, 0, 0, 0.1); /* cor de fundo cinza claro ao passar o mouse */
-  border-radius: 50%;
 }
 
 #search-container {
