@@ -24,3 +24,34 @@
     </footer>
 </body>
 </html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minha Loja de Joias</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav>
+    <!-- Sua barra de navegação existente -->
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+      <!-- Ícone de Pesquisa -->
+      <li class="search-icon">
+        <button onclick="toggleSearch()"><img src="search-icon.png" alt="Search"></button>
+      </li>
+    </ul>
+  </nav>
+  <!-- Barra de Pesquisa -->
+  <div id="search-container" class="hidden">
+    <input type="text" id="search-bar" placeholder="Search...">
+    <button onclick="performSearch()">Go</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
