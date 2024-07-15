@@ -20,8 +20,9 @@ nav {
     max-width: 1200px; /* Largura máxima do conteúdo */
     margin: 0 auto; /* Centraliza horizontalmente */
     display: flex;
-    justify-content: space-between; /* Distribui os elementos uniformemente */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
     align-items: center; /* Alinha verticalmente */
+    height: 60px; /* Altura da barra de navegação */
 }
 
 .logo {
