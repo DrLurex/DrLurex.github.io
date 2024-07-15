@@ -26,7 +26,7 @@ nav {
 }
 
 .logo {
-    font-size: 30px; /* Tamanho da fonte */
+    font-size: 36px; /* Tamanho da fonte aumentado para 36 pixels */
     font-weight: bold; /* Negrito */
     color: #333; /* Cor do texto */
 }
