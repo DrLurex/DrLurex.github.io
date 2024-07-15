@@ -1,0 +1,31 @@
+/* Reset básico para remover margens e preenchimentos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos para o cabeçalho (header) e a barra de navegação */
+header {
+    background-color: white; /* Cor de fundo branca */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    padding: 10px 0; /* Preenchimento no topo e na base */
+}
+
+nav {
+    text-align: center; /* Centraliza o conteúdo */
+}
+
+.container {
+    max-width: 1200px; /* Largura máxima do conteúdo */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    display: flex;
+    justify-content: space-between; /* Distribui os elementos uniformemente */
+    align-items: center; /* Alinha verticalmente */
+}
+
+.logo {
+    font-size: 24px; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito */
+    color: #333; /* Cor do texto */
+}
