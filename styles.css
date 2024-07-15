@@ -35,9 +35,22 @@ nav {
   text-align: right;
 }
 
-.nav-right img {
+.search-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.search-button img {
   width: 24px;
   height: 24px;
+  transition: background-color 0.3s ease;
+}
+
+.search-button:hover img {
+  background-color: rgba(0, 0, 0, 0.1); /* cor de fundo cinza claro ao passar o mouse */
+  border-radius: 50%;
 }
 
 #search-container {
