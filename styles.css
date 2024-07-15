@@ -27,7 +27,7 @@ nav {
 
 .nav-center h1 {
   margin: 0;
-  font-size: 24px;
+  font-size: 36px; /* Aumenta o tamanho do texto */
   line-height: 1; /* Melhorar o alinhamento vertical */
 }
 
@@ -47,8 +47,8 @@ nav {
 }
 
 .search-button img {
-  width: 24px;
-  height: 24px;
+  width: 36px; /* Aumenta o tamanho do ícone */
+  height: 36px; /* Aumenta o tamanho do ícone */
   transition: background-color 0.3s ease;
   border-radius: 50%;
   margin-right: 10px; /* Adiciona espaçamento à direita do ícone */
