@@ -44,6 +44,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  position: relative;
 }
 
 .search-button img {
@@ -51,11 +52,23 @@ nav {
   height: 36px; /* Aumenta o tamanho do ícone */
   transition: background-color 0.3s ease;
   border-radius: 50%;
-  margin-right: 10px; /* Adiciona espaçamento à direita do ícone */
 }
 
-.search-button:hover img {
-  background-color: rgba(0, 0, 0, 0.1); /* cor de fundo cinza claro ao passar o mouse */
+.search-button::before {
+  content: "";
+  position: absolute;
+  width: 46px; /* Maior que o ícone de pesquisa */
+  height: 46px; /* Maior que o ícone de pesquisa */
+  background-color: rgba(0, 0, 0, 0.1); /* cor de fundo cinza claro */
+  border-radius: 8px; /* Bordas arredondadas */
+  top: -5px;
+  left: -5px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.search-button:hover::before {
+  opacity: 1;
 }
 
 #search-container {
