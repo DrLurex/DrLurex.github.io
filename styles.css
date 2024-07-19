@@ -8,14 +8,13 @@ body {
     background-color: black; /* Preto */
     padding: 10px 30px; /* Ajuste o padding para garantir que a barra não seja muito alta */
     display: flex;
-    justify-content: center;
+    justify-content: space-between; /* Distribui os itens uniformemente */
     align-items: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .navbar-content {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     width: 100%;
     max-width: 1200px;
@@ -29,9 +28,10 @@ body {
 
 .navbar-links {
     display: flex;
-    gap: 15px; /* Espaçamento entre os links */
+    gap: 30px; /* Espaçamento entre os links */
     justify-content: center; /* Centraliza os links */
     flex-grow: 1; /* Faz com que ocupe o espaço restante */
+    text-align: center;
 }
 
 .nav-link {
