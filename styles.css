@@ -13,28 +13,32 @@ body {
 }
 
 .navbar-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     max-width: 1200px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    position: relative;
 }
 
 .navbar-title {
     font-size: 24px;
     font-weight: bold;
     color: black;
+    margin-right: auto; /* Alinha o título à esquerda */
+}
+
+.navbar-search {
+    margin-left: auto; /* Alinha a lupa à direita */
 }
 
 .navbar-search img {
     width: 24px;
     height: 24px;
-    cursor: pointer;
-    transition: background-color 0.3s, padding 0.3s;
-    border-radius: 50%;
 }
 
 .navbar-search img:hover {
     background-color: #f0f0f0;
-    padding: 2px;
+    padding: 10px; /* Tamanho do quadrado cinza */
+    border-radius: 50%; /* Bordas circulares */
 }
