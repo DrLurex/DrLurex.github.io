@@ -14,18 +14,18 @@ body {
 
 .navbar-content {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
     max-width: 1200px;
-    position: relative;
 }
 
 .navbar-title {
     font-size: 24px;
     font-weight: bold;
     color: black;
-    margin-center: auto; /* Alinha o título à centro */
+    flex-grow: 1; /* Permite que o título ocupe o espaço restante */
+    text-align: center; /* Centraliza o texto no espaço disponível */
 }
 
 .navbar-search {
@@ -35,10 +35,11 @@ body {
 .navbar-search img {
     width: 24px;
     height: 24px;
+    transition: all 0.3s; /* Suaviza a transição */
 }
 
 .navbar-search img:hover {
     background-color: #f0f0f0;
-    padding: 10px; /* Tamanho do quadrado cinza */
-    border-radius: 50%; /* Bordas circulares */
+    padding: 5px; /* Tamanho do quadrado cinza */
+    border-radius: 8px; /* Bordas circulares para um design mais suave */
 }
