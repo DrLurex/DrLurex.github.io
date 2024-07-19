@@ -15,7 +15,6 @@ body {
 
 .navbar-content {
     display: flex;
-    justify-content: space-between; /* Garante que os itens fiquem alinhados corretamente */
     align-items: center;
     width: 100%;
     max-width: 1200px;
@@ -63,8 +62,7 @@ body {
 }
 
 .navbar-search {
-    display: flex;
-    align-items: center;
+    margin-left: auto; /* Alinha a lupa à direita */
 }
 
 .search-icon {
