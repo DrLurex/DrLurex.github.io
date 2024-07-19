@@ -6,7 +6,7 @@ body {
 
 .navbar {
     background-color: black; /* Preto */
-    padding: 10px 30px; /* Ajuste o padding para garantir que a barra não seja muito alta */
+    padding: 15px 30px; /* Ajuste o padding para garantir que a barra não seja muito alta */
     display: flex;
     justify-content: space-between; /* Distribui os itens uniformemente */
     align-items: center;
@@ -26,6 +26,7 @@ body {
     color: white; /* Cor do texto */
     text-decoration: none; /* Remove a decoração padrão do link */
     margin-right: auto; /* Alinha o título à esquerda */
+    line-height: 40px; /* Ajuste conforme necessário */
 }
 
 .navbar-links {
@@ -41,8 +42,9 @@ body {
     text-decoration: none;
     color: white; /* Cor do texto */
     font-size: 16px;
-    padding-bottom: 10px; /* Espaço entre o texto e a linha */
+    padding: 10px 0; /* Espaço entre o texto e a linha */
     display: inline-block; /* Garante que a linha ocupe o espaço do texto */
+    line-height: 20px; /* Ajuste conforme necessário */
 }
 
 .nav-link::after {
