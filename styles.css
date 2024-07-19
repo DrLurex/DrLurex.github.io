@@ -32,15 +32,21 @@ body {
     margin-left: auto; /* Alinha a lupa à direita */
 }
 
-.navbar-search img {
-    width: 24px;
-    height: 24px;
-    padding: 5px; /* Tamanho do quadrado cinza */
+.search-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px; /* Define um tamanho fixo para o contêiner */
+    height: 34px; /* Define um tamanho fixo para o contêiner */
     border-radius: 8px; /* Bordas circulares */
-    background-color: transparent; /* Fundo transparente para evitar expansão */
+    background-color: transparent; /* Fundo transparente para a lupa */
 }
 
-.navbar-search img:hover {
+.search-icon img {
+    width: 24px;
+    height: 24px;
+}
+
+.search-icon:hover {
     background-color: #f0f0f0; /* Cor de fundo ao passar o mouse */
-    /* Remove qualquer padding adicional no hover */
 }
