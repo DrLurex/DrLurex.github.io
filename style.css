@@ -1,0 +1,89 @@
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Estilos da barra de navegação */
+nav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #575757;
+}
+
+/* Estilos do ícone de pesquisa */
+.search-icon {
+  margin-right: 10px;
+}
+
+.search-icon img {
+  width: 20px;
+  height: 20px;
+  transition: all 0.3s ease;
+}
+
+.search-icon img:hover {
+  background-color: #575757;
+  border-radius: 4px;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+}
+
+/* Estilos da caixa de pesquisa e lista */
+#searchBox {
+  display: block;
+  margin: 20px auto;
+  width: 50%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 50%;
+  margin: 0 auto;
+}
+
+#myUL li a {
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+#myUL li a:hover {
+  background-color: #ddd;
+}
