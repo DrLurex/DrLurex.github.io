@@ -33,7 +33,6 @@ body {
     justify-content: center; /* Centraliza os links */
     align-items: center; /* Alinha verticalmente os links */
     text-align: center;
-    flex-grow: 1; /* Faz com que ocupe o espaço restante */
 }
 
 .nav-link {
@@ -50,18 +49,20 @@ body {
     position: absolute;
     left: 50%;
     bottom: -4px; /* Ajuste a distância da linha em relação ao texto */
-    width: 100%;
+    width: 0%;
     height: 2px; /* Altura da linha */
     background-color: white; /* Cor da linha */
-    transform: translateX(-50%) scaleX(0);
-    transition: transform 0.3s ease;
+    transform: translateX(-50%);
+    transition: width 0.3s ease;
 }
 
 .nav-link:hover::after {
-    transform: translateX(-50%) scaleX(1);
+    width: 100%;
 }
 
 .navbar-search {
+    display: flex;
+    align-items: center;
     margin-left: auto; /* Alinha a lupa à direita */
 }
 
