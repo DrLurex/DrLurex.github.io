@@ -41,26 +41,24 @@ body {
     text-decoration: none;
     color: white; /* Cor do texto */
     font-size: 16px;
-    overflow: hidden; /* Garante que a linha não ultrapasse o limite do texto */
-    padding-bottom: 10px; /* Aumenta o espaço entre o texto e a linha */
+    padding-bottom: 10px; /* Espaço entre o texto e a linha */
+    display: inline-block; /* Garante que a linha ocupe o espaço do texto */
 }
 
 .nav-link::after {
     content: "";
     position: absolute;
-    left: 0;
-    bottom: -4px; /* Ajuste a distância da linha em relação ao texto */
-    width: 0%;
-    height: 2px; /* Altura da linha */
-    background-color: white; /* Cor da linha */
-    transform: scaleX(0);
-    transform-origin: center;
-    transition: transform 0.3s ease;
+    left: 50%;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.3s ease, left 0.3s ease;
 }
 
 .nav-link:hover::after {
     width: 100%;
-    transform: scaleX(1);
+    left: 0;
 }
 
 .navbar-search {
