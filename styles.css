@@ -35,16 +35,13 @@ body {
 .navbar-search img {
     width: 24px;
     height: 24px;
-    /* Remover qualquer padding e border */
-    padding: 0;
-    border: none;
-    /* Remover transition para desativar animações */
+    padding: 0; /* Remove padding */
+    border: none; /* Remove border */
 }
 
 .navbar-search img:hover {
-    background-color: #f0f0f0;
-    /* Ajustar padding para criar o efeito sem aumentar o tamanho da imagem */
-    padding: 5px; /* Tamanho do quadrado cinza */
-    border-radius: 8px; /* Bordas circulares para um design mais suave */
-    /* Remover transition para desativar animações */
+    background-color: #f0f0f0; /* Cor de fundo ao passar o mouse */
+    padding: 5px; /* Adiciona o quadrado cinza */
+    border-radius: 8px; /* Bordas circulares */
+    /* Remove qualquer animação ou transição */
 }
