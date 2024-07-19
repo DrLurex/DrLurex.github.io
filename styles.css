@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f4f4f9; /* Cor de fundo suave */
+    background-color: black; /* Cor de fundo do site */
 }
 
 .navbar {
@@ -11,6 +11,7 @@ body {
     justify-content: space-between; /* Distribui os itens uniformemente */
     align-items: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid #333; /* Linha cinza para separar a barra de navegação do site */
 }
 
 .navbar-content {
@@ -49,7 +50,7 @@ body {
     position: absolute;
     left: 0;
     bottom: -4px; /* Ajuste a distância da linha em relação ao texto */
-    width: 100%;
+    width: 0%;
     height: 2px; /* Altura da linha */
     background-color: white; /* Cor da linha */
     transform: scaleX(0);
@@ -58,12 +59,14 @@ body {
 }
 
 .nav-link:hover::after {
+    width: 100%;
     transform: scaleX(1);
 }
 
 .navbar-search {
     display: flex;
     align-items: center;
+    margin-left: auto; /* Alinha a lupa à direita */
 }
 
 .search-icon {
