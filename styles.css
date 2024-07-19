@@ -35,11 +35,11 @@ body {
 .navbar-search img {
     width: 24px;
     height: 24px;
-    transition: all 0.3s; /* Suaviza a transição */
+    /* Removido transition para desativar animações */
 }
-
 .navbar-search img:hover {
     background-color: #f0f0f0;
     padding: 5px; /* Tamanho do quadrado cinza */
     border-radius: 8px; /* Bordas circulares para um design mais suave */
+    /* Removido transition para desativar animações */
 }
