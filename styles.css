@@ -42,7 +42,7 @@ body {
     font-size: 16px;
     font-weight: bold;
     overflow: hidden; /* Garante que a linha não ultrapasse o limite do texto */
-    padding-bottom: 8px; /* Aumenta o espaço entre o texto e a linha */
+    padding-bottom: 10px; /* Aumenta o espaço entre o texto e a linha */
 }
 
 .nav-link::after {
