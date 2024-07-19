@@ -20,6 +20,23 @@ body {
     max-width: 1200px;
 }
 
+.navbar-links {
+    display: flex;
+    gap: 15px; /* Espaçamento entre os links */
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #007bff; /* Cor ao passar o mouse */
+}
+
 .navbar-title {
     font-size: 24px;
     font-weight: bold;
