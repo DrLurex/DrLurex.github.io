@@ -23,7 +23,6 @@ body {
 
 .navbar-title {
     font-size: 24px;
-    font-weight: bold;
     color: white; /* Cor do texto */
     text-decoration: none; /* Remove a decoração padrão do link */
 }
@@ -40,7 +39,6 @@ body {
     text-decoration: none;
     color: white; /* Cor do texto */
     font-size: 16px;
-    font-weight: bold;
     overflow: hidden; /* Garante que a linha não ultrapasse o limite do texto */
     padding-bottom: 10px; /* Aumenta o espaço entre o texto e a linha */
 }
