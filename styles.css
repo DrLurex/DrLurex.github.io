@@ -5,7 +5,7 @@ body {
 
 .navbar {
     background-color: white;
-    padding: 15px 30px;
+    padding: 10px 30px; /* Ajuste o padding para garantir que a barra não seja muito alta */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,13 +35,12 @@ body {
 .navbar-search img {
     width: 24px;
     height: 24px;
-    padding: 0; /* Remove padding */
-    border: none; /* Remove border */
+    padding: 5px; /* Tamanho do quadrado cinza */
+    border-radius: 8px; /* Bordas circulares */
+    background-color: transparent; /* Fundo transparente para evitar expansão */
 }
 
 .navbar-search img:hover {
     background-color: #f0f0f0; /* Cor de fundo ao passar o mouse */
-    padding: 5px; /* Adiciona o quadrado cinza */
-    border-radius: 8px; /* Bordas circulares */
-    /* Remove qualquer animação ou transição */
+    /* Remove qualquer padding adicional no hover */
 }
