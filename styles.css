@@ -86,6 +86,6 @@ body {
 }
 
 .search-icon:hover {
-    transform: scale(1.2);
     background-color: #e0e0e0; /* Cor de fundo ao passar o mouse, suave */
+    transform: scale(1.1); /* Leve aumento ao passar o mouse */
 }
