@@ -42,7 +42,7 @@ body {
     text-decoration: none;
     color: white; /* Cor do texto */
     font-size: 16px;
-    padding: 10px 0; /* Espaço entre o texto e a linha */
+    padding: 10px 0 5px 0; /* Ajuste o padding-bottom para aproximar a linha do texto */
     display: inline-block; /* Garante que a linha ocupe o espaço do texto */
     line-height: 20px; /* Ajuste conforme necessário */
 }
