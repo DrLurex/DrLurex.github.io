@@ -75,17 +75,15 @@ body {
     justify-content: center;
     width: 34px; /* Define um tamanho fixo para o contêiner */
     height: 34px; /* Define um tamanho fixo para o contêiner */
-    border-radius: 8px; /* Bordas circulares */
-    background-color: #2e2e2e; /* Fundo cinza escuro para a lupa */
-    transition: transform 0.3s ease, background-color 0.3s ease;
+    background-color: transparent; /* Remove o fundo da lupa */
 }
 
 .search-icon img {
     width: 24px;
     height: 24px;
+    transition: transform 0.3s ease;
 }
 
-.search-icon:hover {
-    background-color: #3a3a3a; /* Cor de fundo ao passar o mouse, cinza escuro */
+.search-icon:hover img {
     transform: scale(1.1); /* Leve aumento ao passar o mouse */
 }
