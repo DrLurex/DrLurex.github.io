@@ -76,7 +76,7 @@ body {
     width: 34px; /* Define um tamanho fixo para o contêiner */
     height: 34px; /* Define um tamanho fixo para o contêiner */
     border-radius: 8px; /* Bordas circulares */
-    background-color: transparent; /* Fundo transparente para a lupa */
+    background-color: #2e2e2e; /* Fundo cinza escuro para a lupa */
     transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
@@ -86,6 +86,6 @@ body {
 }
 
 .search-icon:hover {
-    background-color: #e0e0e0; /* Cor de fundo ao passar o mouse, suave */
+    background-color: #3a3a3a; /* Cor de fundo ao passar o mouse, cinza escuro */
     transform: scale(1.1); /* Leve aumento ao passar o mouse */
 }
