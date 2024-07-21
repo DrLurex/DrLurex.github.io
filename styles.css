@@ -2,17 +2,16 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: black; /* Cor de fundo do site */
-    color: white; /* Cor do texto */
 }
 
 .navbar {
     background-color: black; /* Preto */
-    padding: 15px 30px;
+    padding: 15px 30px; /* Ajuste o padding para garantir que a barra não seja muito alta */
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; /* Distribui os itens uniformemente */
     align-items: center;
-    border-bottom: 1px solid #333;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid #333; /* Linha cinza para separar a barra de navegação do site */
 }
 
 .navbar-content {
@@ -20,50 +19,71 @@ body {
     align-items: center;
     width: 100%;
     max-width: 1200px;
-    margin: 0 auto;
 }
 
 .navbar-title {
-    font-size: 1.2rem;
+    font-size: 24px;
     color: white; /* Cor do texto */
     text-decoration: none; /* Remove a decoração padrão do link */
     margin-right: auto; /* Alinha o título à esquerda */
+    line-height: 40px; /* Ajuste conforme necessário */
 }
 
 .navbar-links {
     display: flex;
-    gap: 20px;
-    align-items: center;
+    gap: 30px; /* Espaçamento entre os links */
+    justify-content: center; /* Centraliza os links */
+    align-items: center; /* Alinha verticalmente os links */
+    flex-grow: 1; /* Faz com que ocupe o espaço restante */
 }
 
 .nav-link {
+    position: relative;
     text-decoration: none;
     color: white; /* Cor do texto */
-    font-size: 1rem;
+    font-size: 18px; /* Aumenta o tamanho do texto */
+    padding: 10px 0 5px 0; /* Ajuste o padding-bottom para aproximar a linha do texto */
+    display: inline-block; /* Garante que a linha ocupe o espaço do texto */
+    line-height: 20px; /* Ajuste conforme necessário */
 }
 
-.navbar-search img {
+.nav-link::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.3s ease, left 0.3s ease;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+.navbar-search {
+    display: flex;
+    align-items: center;
+    margin-left: auto; /* Alinha a lupa à direita */
+}
+
+.search-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px; /* Define um tamanho fixo para o contêiner */
+    height: 34px; /* Define um tamanho fixo para o contêiner */
+    background-color: transparent; /* Remove o fundo da lupa */
+}
+
+.search-icon img {
     width: 24px;
     height: 24px;
+    transition: transform 0.3s ease;
 }
 
-.main-container {
-    text-align: center;
-    padding: 100px 20px;
-}
-
-h1 {
-    font-size: 1.2rem;
-    font-weight: normal;
-    margin-bottom: 10px;
-}
-
-h2 {
-    font-size: 2.5rem;
-    margin: 0 0 20px;
-}
-
-p {
-    font-size: 1rem;
-    margin: 0 0 20px;
+.search-icon:hover img {
+    transform: scale(1.1); /* Leve aumento ao passar o mouse */
 }
