@@ -26,6 +26,7 @@ body {
     color: white; /* Cor do texto */
     text-decoration: none; /* Remove a decoração padrão do link */
     margin-right: auto; /* Alinha o título à esquerda */
+    padding-left: 20px; /* Ajuste conforme necessário para mover um pouco à direita */
     line-height: 30px; /* Ajuste conforme necessário */
 }
 
@@ -67,20 +68,21 @@ body {
     display: flex;
     align-items: center;
     margin-left: auto; /* Alinha a lupa à direita */
+    padding-right: 20px; /* Ajuste conforme necessário para mover um pouco à esquerda */
 }
 
 .search-icon {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 24px; /* Diminui o tamanho do contêiner */
-    height: 24px; /* Diminui o tamanho do contêiner */
+    width: 28px; /* Aumenta o tamanho do contêiner */
+    height: 28px; /* Aumenta o tamanho do contêiner */
     background-color: transparent; /* Remove o fundo da lupa */
 }
 
 .search-icon img {
-    width: 16px; /* Diminui o tamanho da imagem */
-    height: 16px; /* Diminui o tamanho da imagem */
+    width: 20px; /* Aumenta o tamanho da imagem */
+    height: 20px; /* Aumenta o tamanho da imagem */
     transition: transform 0.3s ease;
 }
 
