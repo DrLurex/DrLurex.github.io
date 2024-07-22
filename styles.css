@@ -6,7 +6,7 @@ body {
 
 .navbar {
     background-color: black; /* Preto */
-    padding: 15px 30px; /* Ajuste o padding para garantir que a barra não seja muito alta */
+    padding: 10px 20px; /* Ajuste o padding para garantir que a barra não seja muito alta */
     display: flex;
     justify-content: space-between; /* Distribui os itens uniformemente */
     align-items: center;
@@ -22,16 +22,16 @@ body {
 }
 
 .navbar-title {
-    font-size: 24px;
+    font-size: 20px; /* Diminui o tamanho do texto */
     color: white; /* Cor do texto */
     text-decoration: none; /* Remove a decoração padrão do link */
     margin-right: auto; /* Alinha o título à esquerda */
-    line-height: 40px; /* Ajuste conforme necessário */
+    line-height: 30px; /* Ajuste conforme necessário */
 }
 
 .navbar-links {
     display: flex;
-    gap: 30px; /* Espaçamento entre os links */
+    gap: 20px; /* Espaçamento entre os links */
     justify-content: center; /* Centraliza os links */
     align-items: center; /* Alinha verticalmente os links */
     flex-grow: 1; /* Faz com que ocupe o espaço restante */
@@ -41,10 +41,10 @@ body {
     position: relative;
     text-decoration: none;
     color: white; /* Cor do texto */
-    font-size: 18px; /* Aumenta o tamanho do texto */
-    padding: 10px 0 5px 0; /* Ajuste o padding-bottom para aproximar a linha do texto */
+    font-size: 16px; /* Diminui o tamanho do texto */
+    padding: 8px 0 4px 0; /* Ajuste o padding-bottom para aproximar a linha do texto */
     display: inline-block; /* Garante que a linha ocupe o espaço do texto */
-    line-height: 20px; /* Ajuste conforme necessário */
+    line-height: 18px; /* Ajuste conforme necessário */
 }
 
 .nav-link::after {
@@ -73,14 +73,14 @@ body {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 34px; /* Define um tamanho fixo para o contêiner */
-    height: 34px; /* Define um tamanho fixo para o contêiner */
+    width: 24px; /* Diminui o tamanho do contêiner */
+    height: 24px; /* Diminui o tamanho do contêiner */
     background-color: transparent; /* Remove o fundo da lupa */
 }
 
 .search-icon img {
-    width: 24px;
-    height: 24px;
+    width: 16px; /* Diminui o tamanho da imagem */
+    height: 16px; /* Diminui o tamanho da imagem */
     transition: transform 0.3s ease;
 }
 
